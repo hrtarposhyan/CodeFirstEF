@@ -57,6 +57,10 @@
     <Compile Include="Migrations\202003012319439_InitialCreate.designer.cs">
       <DependentUpon>202003012319439_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003041210297_Add_Address.cs" />
+    <Compile Include="Migrations\202003041210297_Add_Address.designer.cs">
+      <DependentUpon>202003041210297_Add_Address.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,6 +74,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202003012319439_InitialCreate.resx">
       <DependentUpon>202003012319439_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003041210297_Add_Address.resx">
+      <DependentUpon>202003041210297_Add_Address.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
